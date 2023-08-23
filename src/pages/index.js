@@ -8,7 +8,7 @@ const HomePage = () => {
         <title>Next Auth</title>
       </Head>
       <h1 style={{ textAlign: "center", marginTop: "10%" }}>Welcome To Next Auth Home Page</h1>
-      <h1 style={{ textAlign: "center", color: "green" }}>Logged in User {session?.user?.name}</h1>
+      <h1 style={{ textAlign: "center", color: "green" }}>Logged in User - {session?.user?.name}</h1>
     </div>
   );
 };
